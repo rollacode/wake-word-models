@@ -4,13 +4,15 @@
   "author": "Andrey Kovalev",
   "website": "https://github.com/rollacode/wake-word-models",
   "model": "https://raw.githubusercontent.com/rollacode/wake-word-models/master/hey_rollo.tflite",
-  "trained_languages": ["en"],
+  "trained_languages": [
+    "en"
+  ],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
-    "feature_step_size": 20,
-    "tensor_arena_size": 45672,
+    "feature_step_size": 10,
+    "tensor_arena_size": 37000,
     "minimum_esphome_version": "2024.7.0"
   }
 }
