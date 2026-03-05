@@ -3,7 +3,7 @@
   "wake_word": "Hey Rollo",
   "author": "Andrey Kovalev",
   "website": "",
-  "model": "./hey_rollo.tflite",
+  "model": "https://raw.githubusercontent.com/rollacode/wake-word-models/master/hey_rollo.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
